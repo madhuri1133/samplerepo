@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3028" started-at="2019-11-07T17:30:38Z" finished-at="2019-11-07T17:30:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3028" started-at="2019-11-07T17:30:38Z" finished-at="2019-11-07T17:30:41Z">
+      <class name="com.adp.automation.businesScripts.GmailTest">
+        <test-method status="PASS" signature="openBroser(java.lang.String)[pri:0, instance:com.adp.automation.businesScripts.GmailTest@ae45eb6]" name="openBroser" is-config="true" duration-ms="12543" started-at="2019-11-07T23:00:25Z" finished-at="2019-11-07T23:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBroser -->
+        <test-method status="PASS" signature="beforeTCExecution(java.lang.reflect.Method)[pri:0, instance:com.adp.automation.businesScripts.GmailTest@ae45eb6]" name="beforeTCExecution" is-config="true" duration-ms="5" started-at="2019-11-07T23:00:38Z" finished-at="2019-11-07T23:00:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.adp.automation.businesScripts.GmailTest.login() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTCExecution -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.adp.automation.businesScripts.GmailTest@ae45eb6]" name="login" duration-ms="3007" started-at="2019-11-07T23:00:38Z" finished-at="2019-11-07T23:00:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.adp.automation.businesScripts.GmailTest@ae45eb6]" name="closeBrowser" is-config="true" duration-ms="4293" started-at="2019-11-07T23:00:41Z" finished-at="2019-11-07T23:00:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.adp.automation.businesScripts.GmailTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browse" value="chrome"/>
+  <listeners>
+    <listener class-name="com.adp.automation.listeners.ListenerAdapterTest"/>
+  </listeners>
+  <test name="Test(failed)">
+    <parameter name="browse" value="chrome"/>
+    <classes>
+      <class name="com.adp.automation.businesScripts.GmailTest">
+        <methods>
+          <include name="beforeTCExecution"/>
+          <include name="openBroser"/>
+          <include name="login"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.adp.automation.businesScripts.GmailTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
