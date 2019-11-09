@@ -35,7 +35,7 @@ public class BaseEngine
 		userDir = System.getProperty("user.dir");
 		if(browser.equalsIgnoreCase("chrome"))
 		{
-			System.out.println("sample git");
+			//System.out.println("sample git");
 			System.setProperty(DriverUtilities.chromeKey,userDir+DriverUtilities.chromeValue );
 			webDriver = new ChromeDriver();
 			/*webDriver.manage().window().maximize();
